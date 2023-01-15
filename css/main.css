@@ -5,11 +5,22 @@ body{
 }
 
 
+
+.section_content{
+    border: 1px solid #a6e0fd;
+    border-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px 20px 5px 20px;
+    padding: 10px;
+    background-color: #122c3b;
+   
+    height: 100vh;
+}
+
 .navbar_container{
-    float: center;
     border:  1px solid #a6e0fd;
-    border-radius: 5px;
-    margin: 5px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 5px 20px 0px 20px;
     padding: 10px;
     overflow: hidden;
     background-color:  #122c3b;
@@ -24,13 +35,41 @@ body{
 }
 
 
-li a {
+.navbar_link {
   color: #a6e0fd;
   display: block;
-  padding: 8px;
+  margin: 8px 16px 8px 16px;
   font-family: 'Sofia Sans', sans-serif;
   font-size: 20px;
   text-decoration-line: none;
   float: left;
 }
+
+.navbar_buttoncolor{
+    float: right;
+    display: block;
+    border-radius: 5px;
+    border: 0px;
+    padding: 2px 19px 2px 2px;
+    margin: 8px 16px 8px 16px;
+    background-color: #a6e0fd;
+
+}
+
+
+footer .elementfooter{
+    float: left;
+    padding: 10px 20px 20px 20px;
+    margin: 8px 16px 8px 16px;
+    color: white;
+    display: block;
+    text-decoration-line: none;
+
+}
+
+
+
+
+
+
 
