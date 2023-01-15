@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: #1b3d50;
+}
+
+
+.navbar_container{
+    float: center;
+    border:  1px solid #a6e0fd;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:  #122c3b;
+}
+
+
+.navbar_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li a {
+  color: #a6e0fd;
+  display: block;
+  padding: 8px;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 20px;
+  text-decoration-line: none;
+  float: left;
+}
+
