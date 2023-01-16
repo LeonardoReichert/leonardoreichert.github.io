@@ -4,10 +4,20 @@ body{
     background-color: #1b3d50;
 }
 
+header{
+    /*border: 1px solid #2f5163;*/
+    margin: 1px 20px 1px 20px;
+    padding: 0px;
+}
+
+.img_logon{
+    width: 100%;
+    opacity: 0.5;
+}
 
 
 .section_content{
-    border: 1px solid #a6e0fd;
+    /*border: 1px solid #a6e0fd;*/
     border-top: 0px;
     border-radius: 0px 0px 5px 5px;
     margin: 0px 20px 5px 20px;
@@ -18,19 +28,20 @@ body{
 }
 
 .navbar_container{
-    border:  1px solid #a6e0fd;
+    /*border:  1px solid #a6e0fd;*/
     border-radius: 5px 5px 0px 0px;
-    margin: 5px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
     padding: 10px;
     overflow: hidden;
-    background-color:  #122c3b;
+    background-color:  #122c3b; 
+    background-image: linear-gradient(to top,#122c3b, #1b3d50);
 }
 
 
 .navbar_ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
 }
 
@@ -40,16 +51,12 @@ body{
   display: block;
   margin: 8px 16px 8px 16px;
   font-family: 'Sofia Sans', sans-serif;
+  /*font-family: 'Press Start 2P', cursive;*/
   font-size: 20px;
   text-decoration-line: none;
   float: left;
 }
 
-@media only screen and (max-width: 800px){
-.navbar_link {
-    font-size: 14px;
-    }
-}
 
 .navbar_buttoncolor{
     float: right;
@@ -57,9 +64,17 @@ body{
     border-radius: 5px;
     border: 0px;
     padding: 2px 19px 2px 2px;
-    margin: 8px 16px 8px 16px;
+    margin: 2px 16px 2px 0px;
     background-color: #a6e0fd;
+}
 
+.selcolors{
+ background-color: #1b3d50;
+ color: #a6e0fd;
+ border: 0px;
+ border-radius: 4px;
+ float: right;
+ padding: 5px;
 }
 
 
@@ -68,10 +83,49 @@ footer .elementfooter{
     padding: 10px 20px 20px 20px;
     margin: 8px 16px 8px 16px;
     color: white;
-    display: block;
+    display: line;
     text-decoration-line: none;
+}
+
+
+@media only screen and (min-width: 1100px){
+    /* pantallas grandes pueden mostrar el contenido mas chiquito */
+    .navbar_container, .section_content, header, footer {
+            margin-left: 15%;
+            margin-right: 15%;
+    }
 
 }
+    
+
+
+@media only screen and (max-width: 800px){
+    /* pantallas medianas */
+    .navbar_link {
+    font-size: 12px;
+    margin-left: 12px;
+    margin-right: 8px;
+    }
+
+    .navbar_buttoncolor{
+        margin: 2px 5px 2px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 300px){
+    /* pantallas mas chicas */
+    .navbar_link {
+        font-size: 10px;
+        margin-left: 8px;
+        margin-right: 6px;
+        }
+    
+    .navbar_buttoncolor{
+        margin: 2px 5px 2px 0px;
+    }
+}
+
 
 
 
