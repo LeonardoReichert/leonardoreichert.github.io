@@ -1,0 +1,21 @@
+
+.imgAvatar{
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    /*border: 1px solid green;
+    border-radius: 100px;*/
+}
+
+.imageMark{
+    border: 5px double lightseagreen;
+    border-radius: 50px;
+    box-shadow: 
+            -5px -5px 15px springgreen,
+             5px  5px 15px springgreen;
+}
+
+
+
+

@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 
 body{
     background-color: #1b3d50;
@@ -24,17 +28,19 @@ header{
     padding: 10px;
     background-color: #122c3b;
    
-    height: 100vh;
+    min-height: 1000px;
+    
+    display: inline-table;
 }
 
 .navbar_container{
-    /*border:  1px solid #a6e0fd;*/
+    /*border:  1px solid lightgreen;*/
     border-radius: 5px 5px 0px 0px;
     margin: 0px 20px 0px 20px;
     padding: 10px;
     overflow: hidden;
-    background-color:  #122c3b; 
-    background-image: linear-gradient(to top,#122c3b, #1b3d50);
+    /*background-color:  #122c3b; */
+    background-image: linear-gradient(to bottom, #1b3d50, #122c3b);
 }
 
 
@@ -50,9 +56,10 @@ header{
   color: #a6e0fd;
   display: block;
   margin: 8px 16px 8px 16px;
-  font-family: 'Sofia Sans', sans-serif;
+  /*font-family: 'Sofia Sans', sans-serif;*/
+  font-family: 'Kanit', sans-serif;
   /*font-family: 'Press Start 2P', cursive;*/
-  font-size: 20px;
+  /*font-size: 20px;*/
   text-decoration-line: none;
   float: left;
 }
@@ -88,48 +95,167 @@ footer .elementfooter{
 }
 
 
-@media only screen and (min-width: 1000px){
-    /* pantallas grandes, a partir de 1000px pueden mostrar el contenido mas chiquito */
+
+.boxContainerMedium{
+
+    width: 50%;
+    /*border: 1px solid greenyellow;*/
+    padding: 0px 5px 0px 5px;
+    float: left;
     
-    
-    .navbar_container, .section_content, header, footer {
-            margin-left: 15%;
-            margin-right: 15%;
-    }
-
-}
-    
-
-
-@media only screen and (max-width: 800px){
-    /* pantallas medianas, menos o igual a 800px*/
-
-    .navbar_link {
-    font-size: 14px;
-    margin-left: 12px;
-    margin-right: 8px;
-    }
-
-
 }
 
-@media only screen and (max-width: 300px){
-    /* pantallas mas chicas, menos o igual a 300px */
+
+.boxContainerTotal{
+
+    width: 100%;
+    height: 100%;
+    /*border: 0px solid #00ff00;*/
+
+    padding: 0px;
+    float: left;
+}
+
+.centeredbox{
+    float: left right;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    /*border: 1px solid green;*/
+}
+
+.textMsg{
+    float: left;
+    display: block;
+    margin: 3px;
+    color: #a6e0fd;
+}
+
+.textMsg2{
+    display: block;
+    margin: 3px;
+    color: #6fc4ee;
+    font-family: 'Rowdies', cursive;
+}
+
+
+.title1{
+    font-family: 'Secular One', sans-serif;
+    color: #a6e0fd;
+    margin-top: 5px;
+}
+
+.subtitle1{
+    float: left;
+    display: block;
+    /*font-family: 'Paytone One', sans-serif;
+    font-family: 'Rowdies', cursive;*/
+    font-family: 'Secular One', sans-serif;
+    margin: 0px;
+    color: #a6e0fd;
+}
+
+
+
+
+@media only screen and (max-width: 359px){
+    /* pantallas muy chicas, hasta 359px*/
+
+    .title1{    
+        font-size: 18px;
+    }
+
+    .subtitle1{
+        font-size: 14px;
+    }
+
     .navbar_link {
         font-size: 12px;
         margin-left: 8px;
         margin-right: 6px;
         }
     
-    .navbar_buttoncolor{
-        margin: 2px 5px 2px 0px;
+    .textMsg2{
+        font-size: 16px;
     }
 }
 
 
+@media only screen and (min-width: 360px) and (max-width: 699px){
+    /* pantallas chicas, de 330 a 699 pixeles */
+    
+    .title1{    
+        font-size: 24px;
+    }
+    
+    .subtitle1{
+        font-size: 16px;
+    }
+
+    .navbar_link {
+        font-size: 16px;
+        margin-left: 12px;
+        margin-right: 8px;
+    }
+
+    .textMsg2{
+        font-size: 16px;
+    }
+
+}
 
 
+@media only screen and (min-width: 700px) and (max-width: 999px){
+    /* pantallas medianamente chicas, a partir de 700px hasta 999px */
+    
+    .title1{
+        font-size: 28px;
+    }
+
+    .subtitle1{
+        font-size: 18px;
+    }
+
+    .navbar_container, .section_content, header, footer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .navbar_link {
+        font-size: 18px;
+    }
+
+    .textMsg2{
+        font-size: 16px;
+    }
+
+}
 
 
+@media only screen and (min-width: 1000px){
+    /* pantallas normales, a partir de 1000px pueden mostrar el contenido asi */
+    
+    .title1{
+        font-size: 38px;
+    }
+
+    .subtitle1{
+        font-size: 20px;
+    }
+
+    .navbar_container, .section_content, header, footer {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .navbar_link {
+        font-size: 22px;
+    }
+
+    .textMsg2{
+        font-size: 18px;
+    }
+}
 
 
