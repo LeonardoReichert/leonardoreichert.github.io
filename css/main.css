@@ -10,7 +10,7 @@ body{
 
 header{
     /*border: 1px solid #2f5163;*/
-    margin: 1px 20px 1px 20px;
+    /*margin: 1px 20px 1px 20px;*/
     padding: 0px;
 }
 
@@ -36,7 +36,7 @@ header{
 .navbar_container{
     /*border:  1px solid lightgreen;*/
     border-radius: 5px 5px 0px 0px;
-    margin: 0px 20px 0px 20px;
+    /*margin: 0px 20px 0px 20px;*/
     padding: 10px;
     overflow: hidden;
     /*background-color:  #122c3b; */
@@ -189,7 +189,7 @@ footer .elementfooter{
 
 
 @media only screen and (min-width: 360px) and (max-width: 699px){
-    /* pantallas chicas, de 330 a 699 pixeles */
+    /* pantallas chicas, de 360 a 699 pixeles */
     
     .title1{    
         font-size: 24px;
