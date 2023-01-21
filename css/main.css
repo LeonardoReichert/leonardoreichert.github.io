@@ -6,6 +6,7 @@
 
 body{
     background-color: #1b3d50;
+    margin: 0px;
 }
 
 header{
@@ -19,20 +20,6 @@ header{
     opacity: 0.5;
 }
 
-
-.section_content{
-    /*border: 1px solid #a6e0fd;*/
-    border-top: 0px;
-    border-radius: 0px 0px 5px 5px;
-    /*margin: 0px 20px 5px 20px;*/
-    padding: 10px;
-    background-color: #122c3b;
-   
-    min-height: 1000px;
-    
-    display: inline-table;
-}
-
 .navbar_container{
     /*border:  1px solid lightgreen;*/
     border-radius: 5px 5px 0px 0px;
@@ -41,6 +28,10 @@ header{
     overflow: hidden;
     /*background-color:  #122c3b; */
     background-image: linear-gradient(to bottom, #1b3d50, #122c3b);
+
+    box-shadow: inset 2px 2px 5px lightseagreen,
+                inset -2px -2px 5px lightseagreen;
+
 }
 
 
@@ -85,6 +76,20 @@ header{
 }
 
 
+.section_content{
+    /*border: 1px solid #a6e0fd;*/
+    border-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+    /*margin: 0px 20px 5px 20px;*/
+    padding: 10px;
+    background-color: #122c3b;
+   
+    min-height: 1000px;
+    
+    display: inline-table;
+}
+
+
 footer .elementfooter{
     float: left;
     padding: 10px 20px 20px 20px;
@@ -93,7 +98,6 @@ footer .elementfooter{
     display: line;
     text-decoration-line: none;
 }
-
 
 
 .boxContainerMedium{
@@ -139,11 +143,18 @@ footer .elementfooter{
     font-family: 'Rowdies', cursive;
 }
 
+.textMsg3{
+    display: block;
+    margin: 3px;
+    color: #6fc4ee;
+    font-family: 'Roboto', sans-serif;
+}
 
 .title1{
     font-family: 'Secular One', sans-serif;
     color: #a6e0fd;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .subtitle1{
@@ -182,7 +193,7 @@ footer .elementfooter{
         /*margin-right: 6px;*/
         }
     
-    .textMsg2{
+    .textMsg2, .textMsg3{
         font-size: 14px;
     }
 }
@@ -211,7 +222,7 @@ footer .elementfooter{
         /*margin-right: 8px;*/
     }
 
-    .textMsg2{
+    .textMsg2, .textMsg3{
         font-size: 14px;
     }
 
@@ -238,7 +249,7 @@ footer .elementfooter{
         font-size: 18px;
     }
 
-    .textMsg2{
+    .textMsg2, .textMsg3{
         font-size: 16px;
     }
 
@@ -265,8 +276,8 @@ footer .elementfooter{
         font-size: 22px;
     }
 
-    .textMsg2{
-        font-size: 18px;
+    .textMsg2, .textMsg3{
+        font-size: 20px;
     }
 }
 

@@ -1,0 +1,29 @@
+
+
+
+.txtneon1{
+
+    /*
+    box-shadow: inset 2px 2px 5px lightseagreen,
+                inset -2px -2px 5px lightseagreen;*/
+
+                
+    text-shadow: 2px 2px 4px skyblue,
+                -2px -2px 4px skyblue;
+}
+
+
+.txtneon2{
+
+    /*
+    box-shadow: inset 2px 2px 5px lightseagreen,
+                inset -2px -2px 5px lightseagreen;*/
+
+    text-shadow:  2px 2px 5px springgreen,
+                 -2px -2px 5px springgreen;
+
+}
+
+
+
+
