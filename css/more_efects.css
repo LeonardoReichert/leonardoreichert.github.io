@@ -1,5 +1,13 @@
 
 
+.centerContent{
+    float: left right;
+    /*display: block;*/
+    text-align: center;
+    /*justify-content: center*/;
+    /*margin: auto;*/
+    /*border: 1px solid green;*/
+}
 
 .txtneon1{
 
@@ -19,11 +27,40 @@
     box-shadow: inset 2px 2px 5px lightseagreen,
                 inset -2px -2px 5px lightseagreen;*/
 
-    text-shadow:  2px 2px 5px springgreen,
-                 -2px -2px 5px springgreen;
+    text-shadow:  2px 2px 4px springgreen,
+                 -2px -2px 4px springgreen;
 
 }
 
 
 
+
+.boxItems{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid #00ff00;*/
+    vertical-align: top;
+}
+
+.txtNoExpand{
+    max-width: min-content;
+    text-align: center;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 400px) {
+    /* solo cuando la pantalla es chica <= 400px entonces
+    las cajas de items "lenguajes y tal" se archican para que no se apilen de a uno*/
+    .boxItems{
+        width: 30%;
+        height: 30%;
+        border: 1px solid red;
+    }
+
+    .boxContainerMedium{
+        border: 1px solid yellow;
+    }
+}
 

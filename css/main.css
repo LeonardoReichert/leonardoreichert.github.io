@@ -56,36 +56,15 @@ header{
 }
 
 
-.navbar_buttoncolor{
-    float: right;
-    display: block;
-    border-radius: 5px;
-    border: 0px;
-    padding: 2px 19px 2px 2px;
-    margin: 2px 16px 2px 0px;
-    background-color: #a6e0fd;
-}
-
-.selcolors{
- background-color: #1b3d50;
- color: #a6e0fd;
- border: 0px;
- border-radius: 4px;
- float: right;
- padding: 5px;
-}
-
-
 .section_content{
     /*border: 1px solid #a6e0fd;*/
     border-top: 0px;
-    border-radius: 0px 0px 5px 5px;
+    /*border-radius: 0px 0px 5px 5px;*/
     /*margin: 0px 20px 5px 20px;*/
     padding: 10px;
     background-color: #122c3b;
    
     min-height: 1000px;
-    
     display: inline-table;
 }
 
@@ -111,23 +90,17 @@ footer .elementfooter{
 
 
 .boxContainerTotal{
-
+    display: block;
+    float: left;
+    
     width: 100%;
-    height: 100%;
-    /*border: 0px solid #00ff00;*/
+    /*height: 100%;*/
+    /*border: 1px solid orchid;*/
 
     padding: 0px;
-    float: left;
+    
 }
 
-.centeredbox{
-    float: left right;
-    display: block;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    /*border: 1px solid green;*/
-}
 
 .textMsg{
     float: left;
@@ -137,14 +110,14 @@ footer .elementfooter{
 }
 
 .textMsg2{
-    display: block;
+    /*display: block;*/
     margin: 3px;
     color: #6fc4ee;
     font-family: 'Rowdies', cursive;
 }
 
 .textMsg3{
-    display: block;
+    /*display: block;*/
     margin: 3px;
     color: #6fc4ee;
     font-family: 'Roboto', sans-serif;
@@ -158,7 +131,6 @@ footer .elementfooter{
 }
 
 .subtitle1{
-    float: left;
     display: block;
     /*font-family: 'Paytone One', sans-serif;
     font-family: 'Rowdies', cursive;*/
@@ -223,7 +195,7 @@ footer .elementfooter{
     }
 
     .textMsg2, .textMsg3{
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }
@@ -250,7 +222,7 @@ footer .elementfooter{
     }
 
     .textMsg2, .textMsg3{
-        font-size: 16px;
+        font-size: 18px;
     }
 
 }
@@ -264,7 +236,7 @@ footer .elementfooter{
     }
 
     .subtitle1{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .navbar_container, .section_content, header, footer {
@@ -277,7 +249,7 @@ footer .elementfooter{
     }
 
     .textMsg2, .textMsg3{
-        font-size: 20px;
+        font-size: 24px;
     }
 }
 
