@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
-
+    
     <!--g
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
         rel="stylesheet">
@@ -50,38 +50,51 @@
 <nav class="navbar_container">
     <ul class="navbar_ul">
         <li><a class="navbar_link txtneon1" href="/">Acerca de mi</a></li>
-        <li><a class="navbar_link" href="proyects.html">Proyectos</a></li>
+        <!--<li><a class="navbar_link" href="proyects.html">Proyectos</a></li>-->
         <li><a class="navbar_link" target="_blank" href="https://github.com/LeonardoReichert">Mi Github</a></li>
         <li>
-            <!--<button class="navbar_buttoncolor">
-                <img src="images/color3.svg">
-            </button> -->
-            
+            <button id="btnDebugDevs">{devs}</button>
         </li>
     </ul>
 </nav>
 
 <section class="section_content">
 
+    <div id="debugDevBox" class="boxContainerTotal textMsg centerContent" style="display: none;">
+        <!-- Caja de debug -->
+        <h4> Mode: Debug Developer </h4>
+        <h4> Divs boxContainerTotal:</h4>
+        <p>width: 100%; border color: pink;</p>
+        <h4> Divs boxContainerMedium:</h4>
+        <p>width: 50%; border color: green;</p>
+
+    </div>
+
     <!--
 <h2 style="border: 1px solid #00ff00; color: white;"> en contruccion </p>
 -->
 
-   
-        <div class="boxContainerMedium centerContent heightSep">
+        <div class="boxContainerTotal heightSep centerContent">
             
-            <img class="imageMark heightSep" src="/images/perfil2.png" alt="Perfil face" width="60%">
+                <h1 class="title1">Leonardo A. Reichert</h1>
             
         </div>
+   
+        <div class="boxContainerMedium centerContent heightSep">
 
-        <div class="boxContainerMedium">
+            <img class="imageMark heightSep" src="/images/perfil2.png" alt="Perfil face" width="60%">
+            
+            <p class="textMsg3 txtneon2">{Python Programmer}</p>
+            <p class="textMsg txtneon2">>>> Age = 27 #years</p>
+        </div>
+
+        <div class="boxContainerMedium heightSep">
             
             <div class="centerContent">
-                <h1 class="title1">Leonardo A. Reichert</h1>
+                
 
             <!-- <h2 class="subtitle1"> Habilidades: </h2> -->
 
-                <p class="textMsg3 txtneon2">{Python Programmer}</p>
             </div>
 
             <!--
@@ -90,10 +103,10 @@
                     <p class="textMsg2">mass desc</p>
             </div>-->
 
-            <div class="heightSep centerContent">
+            <div class="centerContent">
                 <p class="textMsg2">mass desc</p>
 
-                <p class="textMsg2">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty throu</p>
+                <p class="textMsg2">On the other hand, we denouhe moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty throu</p>
             </div>
 
         
@@ -106,13 +119,13 @@
     
     <div class="boxContainerTotal centerContent">
     
-        <h2 class="subtitle1 centerContent heightSep">Skills</h2>
+        <h2 class="subtitle1 txtneon2 centerContent heightSep">Skills</h2>
             
             <div class="boxItems">
                 <img src="/images/python.png" alt="python logo" width="100%">
                 <p class="textMsg2 txtNoExpand">Python</p>
             </div>
-            <div class="boxItems">
+            <div class="/boxItems">
                 <img src="/images/django-logo-negative.png" alt="django logo" width="100%">
                 <p class="textMsg2 txtNoExpand">Django</p>
             </div>
@@ -150,12 +163,14 @@
 
 
 <footer>
-    <p class="elementfooter">(C) Leonardo A. Reichert 2023</p>
+    <p class="elementfooter textMsg">(C) Leonardo A. Reichert 2023</p>
     <address>
-        <a class="elementfooter" href="mailto:leoreichert5000@gmail.com">Email</a>
+        <a class="elementfooter textMsg" href="mailto:leoreichert5000@gmail.com">Email</a>
     </address>
-    <a class="elementfooter" href="#arriba">Volver Arriba</a>
+    <a class="elementfooter textMsg" href="#arriba">Volver Arriba</a>
 </footer>
+
+<script src="/js/debugboxs.js"></script>
 
 </body>
 
