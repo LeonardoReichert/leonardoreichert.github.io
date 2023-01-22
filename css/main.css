@@ -84,8 +84,8 @@ header{
 
 footer .elementfooter{
     float: left;
-    padding: 10px 20px 20px 20px;
-    margin: 8px 16px 8px 16px;
+    /*padding: 10px 20px 20px 20px;*/
+    margin: 8px 3px 8px 3px;
     color: white;
     display: line;
     text-decoration-line: none;
