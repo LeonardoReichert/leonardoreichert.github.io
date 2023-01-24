@@ -182,6 +182,11 @@ footer{
         height: 120px;
     }
 
+    
+    .section_content{
+        padding: 5px;
+    }
+
     .title1{    
         font-size: 18px;
     }
@@ -223,6 +228,10 @@ footer{
     
     header{
         height: 140px;
+    }
+
+    .section_content{
+        padding: 5px;
     }
 
     .title1{    
