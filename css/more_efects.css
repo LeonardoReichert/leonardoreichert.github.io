@@ -9,8 +9,16 @@
     /*border: 1px solid green;*/
 }
 
-.txtneon1{
 
+.boxFooter{
+    margin: 0px;
+    text-align: right;
+    display: inline;
+    width: 30%;
+}
+
+
+.linkCurrent{
     /*
     box-shadow: inset 2px 2px 5px lightseagreen,
                 inset -2px -2px 5px lightseagreen;*/
@@ -21,7 +29,7 @@
 }
 
 
-.txtneon2{
+.txtNeon1{
 
     /*
     box-shadow: inset 2px 2px 5px lightseagreen,
@@ -33,6 +41,14 @@
 }
 
 
+.txtNeon2{
+
+    /*una sombra verdosa mas grande */
+
+    text-shadow:  2px 2px 30px springgreen,
+                 -2px -2px 30px springgreen;
+
+}
 
 
 .boxItems{
@@ -50,6 +66,27 @@
 }
 
 
+.marginSides1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.underline1{
+    border-bottom: 1px solid #a6e0fd;
+}
+
+
+.buttonShowContent{
+    float: left;
+    background-color: #1060f0;
+    color: white;
+    border: 1px solid turquoise;
+    margin:auto;
+    margin-right: 20px;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 400px) {
     /* solo cuando la pantalla es chica <= 400px entonces
@@ -57,11 +94,11 @@
     .boxItems{
         width: 30%;
         height: 30%;
-        border: 1px solid red;
     }
-
-    .boxContainerMedium{
-        border: 1px solid yellow;
+    
+    .marginSides1{
+        margin-left: 8px;
+        margin-right: 8px;
     }
 }
 

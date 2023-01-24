@@ -10,37 +10,32 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     
-    <!--
-    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-    -->
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
     
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <!--g
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
         rel="stylesheet">
     -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="css/about.css">
 
-    <link rel="stylesheet" href="/css/more_efects.css">
+    <link rel="stylesheet" href="css/more_efects.css">
 
 </head>
 <body>
 <a name="arriba"></a>
 
 <header>
-    <img src="/images/logon1.png" alt="img python" class="img_logon" width="300px" height="120px">
+    <img src="images/logon1.png" alt="img logo" class="img_logon" width="300px" height="120px">
     
     
 </header>
@@ -49,7 +44,7 @@
 
 <nav class="navbar_container">
     <ul class="navbar_ul">
-        <li><a class="navbar_link txtneon1" href="/">Acerca de mi</a></li>
+        <li><a class="navbar_link linkCurrent" href="/">Acerca de mi</a></li>
         <!--<li><a class="navbar_link" href="proyects.html">Proyectos</a></li>-->
         <li><a class="navbar_link" target="_blank" href="https://github.com/LeonardoReichert">Mi Github</a></li>
         <li>
@@ -60,14 +55,22 @@
 
 <section class="section_content">
 
-    <div id="debugDevBox" class="boxContainerTotal textMsg centerContent" style="display: none;">
+    <div id="debugDevBox" class="boxContainerTotal textMsg1 centerContent" style="display: none;">
         <!-- Caja de debug -->
-        <h4> Mode: Debug Developer </h4>
-        <h4> Divs boxContainerTotal:</h4>
-        <p>width: 100%; border color: pink;</p>
-        <h4> Divs boxContainerMedium:</h4>
-        <p>width: 50%; border color: green;</p>
+        <div style="margin: 0px;">
+            <h4> Mode: Debug Developer </h4>
+            <h4 style="color: purple;"> Divs boxContainerTotal:</h4>
+            <p>width: 100%; border color: purple;</p>
 
+            <h4 style="color: yellow"> Divs boxContainerMedium:</h4>
+            <p>width: 50%; border color: yellow;</p>
+
+            <h4 style="color: green"> Divs boxItems:</h4>
+            <p>width,height: >= 30%; border color: green;</p>
+
+            <h4 style="color: #00FF80"> footer:</h4>
+            <p>width,height: >= 30%; border color: #00FF80;</p>
+        </div>
     </div>
 
     <!--
@@ -82,10 +85,10 @@
    
         <div class="boxContainerMedium centerContent heightSep">
 
-            <img class="imageMark heightSep" src="/images/perfil2.png" alt="Perfil face" width="60%">
+            <img class="imageMark heightSep" src="images/perfil2.png" alt="Perfil face" width="60%">
             
-            <p class="textMsg3 txtneon2">{Python Programmer}</p>
-            <p class="textMsg txtneon2">>>> Age = 27 #years</p>
+            <p class="textMsg2 txtNeon1">{Python Programmer}</p>
+            <p class="txtSmall txtNeon1">Age: 27 years</p>
         </div>
 
         <div class="boxContainerMedium heightSep">
@@ -100,46 +103,49 @@
             <!--
             <div class="boxContainerTotal heightSep centerContent">
 
-                    <p class="textMsg2">mass desc</p>
+                    <p class="textMsg1">mass desc</p>
             </div>-->
 
-            <div class="centerContent">
-                <p class="textMsg2">mass desc</p>
-
-                <p class="textMsg2">On the other hand, we denouhe moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty throu</p>
+            <div class="centerContent heightSep">
+                <p class="textMsg1">
+                    Soy programador en constante aprendisaje y conocimiento.
+                </p>
+                <p class="textMsg1">
+                    Dispuesto a trabajar en proyectos similares a mis conocimientos
+                    y tambien a aquellos que requieran aprendisaje.
+                </p>
+                <p class="textMsg1">
+                    Estado: Especializando mi conocimiento.
+                </p>
             </div>
-
-        
+            
         </div>
    
     <!-- <br style="clear: both;">
     -->
-
     
+    <div class="boxContainerTotal centerContent txtNeon2">
     
-    <div class="boxContainerTotal centerContent">
-    
-        <h2 class="subtitle1 txtneon2 centerContent heightSep">Skills</h2>
-            
+        <h2 class="subtitle1 centerContent heightSep">Skills</h2>
             <div class="boxItems">
-                <img src="/images/python.png" alt="python logo" width="100%">
-                <p class="textMsg2 txtNoExpand">Python</p>
+                <img src="images/python.png" alt="python logo" width="100%">
+                <p class="textMsg1 txtNoExpand">Python</p>
             </div>
             <div class="boxItems">
-                <img src="/images/djangologo.png" alt="django logo 2" width="100%">
-                <p class="textMsg2 txtNoExpand">Django</p>
+                <img src="images/djangologo.png" alt="django logo 2" width="100%">
+                <p class="textMsg1 txtNoExpand">Django</p>
             </div>
             <div class="boxItems">
-                <img src="/images/sql-file.png" alt="sql logo" width="100%">
-                <p class="textMsg2 txtNoExpand">SQL</p>
+                <img src="images/sql-file.png" alt="sql logo" width="100%">
+                <p class="textMsg1 txtNoExpand">SQL</p>
             </div>
             <div class="boxItems">
-                <img src="/images/c.png" alt="c logo" width="100%">
-                <p class="textMsg2 txtNoExpand">C</p>
+                <img src="images/c.png" alt="c logo" width="100%">
+                <p class="textMsg1 txtNoExpand">C</p>
             </div>
             <div class="boxItems">
-                <img src="/images/html-file.png" alt="web logo" width="100%">
-                <p class="textMsg2 txtNoExpand">HTML, CSS, JS</p>
+                <img src="images/html-file.png" alt="web logo" width="100%">
+                <p class="textMsg1 txtNoExpand">HTML, CSS, JS</p>
             </div>
     </div>
 
@@ -147,32 +153,50 @@
     <!--
     <br style="clear: both;"> -->
 
-        <div class="boxContainerTotal centerContent heightSep">
-    
-            
-            <p class="textMsg2">
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-            </p> 
+    <div class="boxContainerTotal heightSep">
 
-            <img src="/test.png" alt="temporaltest" width="50%">
+        <div class="marginSides1">
+            <h2 class="subtitle1 heightSep underline1">
+                <button id="btnShowPInfo" class="buttonShowContent textMsg1">
+                    Mostrar
+                </button>
+                Datos personales
+            </h2>
+
+        <!-- contenido: -->
+        <div id="personalInfo" class="boxContainerTotal" style="display: none">
+
+                <p class="textMsg1">
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </p> 
+                
+                <img src="test.png" alt="temporaltest" width="50%">
+            </div>
+        </div>
             
-        </div>    
+    </div>    
+
     
 </section>
 
 
 
-<footer>
-    <div class="centerContent textMsg">
-        <p class="elementfooter">(C) Leonardo A. Reichert 2023</p>
-        <address>
-            <a class="elementfooter" href="mailto:leoreichert5000@gmail.com">E-mail</a>
+<footer class="centerContent">
+        <p class="footerTxt">(C) Leonardo A. Reichert 2023</p>
+        
+        <address style="display: inline; margin: 0; padding: 0;">
+            <a class="footerTxt" href="mailto:leoreichert5000@gmail.com"> 
+                E-mail
+            </a>
         </address>
-        <a class="elementfooter" href="#arriba">Volver Arriba</a>
-    </div>
+        
+        <a class="footerTxt" href="#arriba">
+            Volver Arriba
+        </a>
 </footer>
 
-<script src="/js/debugboxs.js"></script>
+<script src="js/debugboxs.js"></script>
+<script src="js/dinamics.js"></script>
 
 </body>
 
