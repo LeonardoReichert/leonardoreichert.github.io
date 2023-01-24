@@ -149,6 +149,14 @@ footer{
 }
 
 
+.textMsg3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #6fc4ee;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
 .title1{
     font-family: 'Secular One', sans-serif;
     color: #a6e0fd;
@@ -197,6 +205,11 @@ footer{
     .textMsg1, .textMsg2{
         font-size: 12px;
     }
+
+    
+    .textMsg3{
+        font-size: 13px;
+    }
     
     .footerTxt{
         font-size: x-small;
@@ -236,6 +249,10 @@ footer{
         font-size: 14px;
     }
 
+    .textMsg3{
+        font-size: 15px;
+    }
+
     .footerTxt{
         font-size: x-small;
     }
@@ -271,6 +288,10 @@ footer{
         font-size: 18px;
     }
 
+    .textMsg3{
+        font-size: 16px;
+    }
+
     .footerTxt{
         font-size: small;
     }
@@ -304,6 +325,10 @@ footer{
 
     .textMsg1, .textMsg2{
         font-size: 24px;
+    }
+
+    .textMsg3{
+        font-size: 18px;
     }
 
     
