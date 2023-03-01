@@ -88,6 +88,25 @@
 }
 
 
+.imgIcon{
+    background-color: aqua;
+    max-width: 35px;
+}
+
+@media only screen and (max-width: 450px) {
+    .imgIcon{
+        width: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .imgIcon{
+        width: 25px;
+    }
+}
+
+
 @media only screen and (max-width: 400px) {
     /* solo cuando la pantalla es chica <= 400px entonces
     las cajas de items "lenguajes y tal" se archican para que no se apilen de a uno*/
